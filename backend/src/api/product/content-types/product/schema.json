@@ -25,6 +25,14 @@
     "price": {
       "required": true,
       "type": "float"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     }
   }
 }
